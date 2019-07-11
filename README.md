@@ -94,7 +94,7 @@ Além disso, praticamente todos os aspectos do painel são totalmente personaliz
 |Ungroup application windows|![](media/design/png/done.png)|
 |Export and import settings|![](media/design/png/done.png)|
 ##
-### Compatibility
+### Compatibilidade
 
 Esta extensão foi testada com o Gnome 3.18+.
 
