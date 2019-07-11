@@ -10,25 +10,25 @@
 
 ![](media/design/png/dtp-main-p2.png)
 
-### Introduction
+### Introdução
 
-Dash to Panel is an icon taskbar for Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications. 
+O One Panel é uma barra de tarefas de ícones do Gnome Shell. Essa extensão move o traço para o painel principal do gnome para que os lançadores de aplicativos e a bandeja do sistema sejam combinados em um único painel, semelhante ao encontrado no KDE Plasma e no Windows 7+. Um dock separado não é mais necessário para facilitar o acesso a aplicativos em execução e favoritos.
 
-Beyond that, just about every aspect of the panel is fully customizable. From positioning and scaling panel elements to running indicators to multi-monitor display, to window previews and even intellihide, Dash to Panel has everything you need to make your workspace feel like home.
+Além disso, praticamente todos os aspectos do painel são totalmente personalizáveis. Desde posicionamento e dimensionamento de elementos de painel a indicadores de execução, exibição de vários monitores, visualizações de janelas e até mesmo inteligência, o One Panel tem tudo que você precisa para fazer seu espaço de trabalho se sentir em casa.
 
-### Features
+### Características
 
-|Customizable appearance|
+|Aparência customizável|
 |:-----:|
 |![screenshot](media/design/gif/customizable.gif)|
-|Hide & show panel elements and set their positions, sizes & colors|
+|Ocultar e mostrar elementos do painel e definir suas posições, tamanhos e cores|
 
 ##
 
 <table>
     <thead>
         <tr>
-            <th colspan=2>Customizable running indicators</th>
+            <th colspan=2>Indicadores de execução personalizáveis</th>
         </tr>
     </thead>
     <tbody>
@@ -57,7 +57,7 @@ Beyond that, just about every aspect of the panel is fully customizable. From po
             <td align="center"><img src="media/design/png/dots-solid.png"/></td>
         </tr>
         <tr>
-            <td colspan=2 align="center">Set position, style, weight & color of running indicators to easily and quickly identify focused and unfocused applications</td>
+            <td colspan=2 align="center">Defina a posição, o estilo, o peso e a cor dos indicadores de execução para identificar com facilidade e rapidez aplicativos focados e sem foco</td>
         </tr>
     </tbody>
 </table>
@@ -67,20 +67,20 @@ Beyond that, just about every aspect of the panel is fully customizable. From po
 |Live Previews on Hover|
 |:-----:|
 |![screenshot](media/design/gif/previews.gif)|
-|Hover over the launcher icon for an open application to get a live window preview|
+|Passe o mouse sobre o ícone do iniciador de um aplicativo aberto para obter uma visualização da janela ao vivo|
 
 ##
 |Launch by Number|
 |:-----:|
 |![](media/design/png/indicators-num.png.png)|
-|Optionally launch your favorite applications via keyboard|
+|Opcionalmente, lance seus aplicativos favoritos via teclado|
 
 ##
 
 |Panel Intellihide|
 |:-----:|
 |![Intellihide](media/design/gif/Intellihide.gif)|
-|Hide and reveal the panel according to your set preferences|
+|Esconda e revele o painel de acordo com as suas preferências|
 
 ##
 |Additional Features|Feature Implemented|
@@ -94,56 +94,18 @@ Beyond that, just about every aspect of the panel is fully customizable. From po
 |Ungroup application windows|![](media/design/png/done.png)|
 |Export and import settings|![](media/design/png/done.png)|
 ##
-
-### Installation
-
-**To install the most recent official release:
-[Visit Dash-to-Panel at GNOME Extensions](https://extensions.gnome.org/extension/1160/dash-to-panel/)**
-
-To install a development version from source, please see the [Installation wiki page](https://github.com/jderose9/dash-to-panel/wiki/Installation).
-
-## 
-### FAQ
-
-How do I embed my bottom left notification drawer into the panel like a system tray? [Top Icons Plus](https://extensions.gnome.org/extension/1031/topicons) or [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support)
-
-How do I add a traditional start menu? [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
-
-How do I disable the hot corner? [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner)
-
-How do I move the notifications to somewhere other than the top center? [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd)
-
-How do I change workspaces by scrolling the mouse wheel in the empty space? [Top Panel Workspace Scroll](https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/)
-
-How do I display Minimize & Maximize buttons? In the Tweak Tool application, turn on `Windows > Titlebar Buttons > Minimize & Maximize`.
-
-Why can't I put the panel vertically on the left or right of the display? Gnome-shell and it's numerous extensions add widgets to the panel. These widgets have been designed using padding and absolute positioning assuming a horizontal layout. At this point in time, I don't think it is possible to allow for a vertical layout and still maintain any sort of reasonable compatibility with many of the other features of Gnome.
-
-## 
-### Themes
-While this extension works well with most popular Gnome Shell themes, the following themes are known to have explicitly added custom styles for this extension:
-- [Ciliora Tertia](https://github.com/zagortenay333/ciliora-tertia-shell) / [Ciliora Secunda](https://github.com/zagortenay333/ciliora-secunda-shell)
-- [Plano](https://github.com/lassekongo83/plano-theme)
-
-
-## 
 ### Compatibility
 
-This extension has been tested with Gnome 3.18+.
+Esta extensão foi testada com o Gnome 3.18+.
 
-This extension manipulates the Gnome Main Panel, aka Top Bar. So, most other extensions which operate on the top bar should be compatible.
+Esta extensão manipula o Painel Principal do Gnome, também conhecido como Top Bar. Assim, a maioria das outras extensões que operam na barra superior deve ser compatível.
 
-## 
-### Donation
-
-Dash-to-Panel is provided free of charge. If it has improved your workflow, or you had a great support experience, feel free to say thanks by making a donation to the developers. (If you would like your donation to go to a specific developer, you may mention it in the note field during payment)
-
-[![Donate via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y5PBB2CRJ6F2W&source=url)
 
 ##
-### Volunteers needed!
+### Precisa-se de voluntários!
 
-This extension could be even better with your help! Any items in the issue tracker labelled `help wanted` or `good first issue` are up for grabs. For more info, see the [Contributing wiki page](https://github.com/jderose9/dash-to-panel/wiki/Contributing).
+
+Esta extensão pode ser ainda melhor com a sua ajuda!
 
 ## 
 ### Credits
@@ -156,29 +118,8 @@ Additional credits: This extension leverages the work for [ZorinOS Taskbar](http
 Code to set anchor position taken from [Thoma5/gnome-shell-extension-bottompanel](https://github.com/Thoma5/gnome-shell-extension-bottompanel).
 Pattern for moving panel contents based on [Frippery Move Clock](http://frippery.org/extensions/) by R M Yorston.
 Ideas for recursing child actors and assigning inline styles are based on code from the extension [StatusAreaHorizontalSpacing](https://bitbucket.org/mathematicalcoffee/status-area-horizontal-spacing-gnome-shell-extension).
-##
-
-#### Thanks to the following people for contributing via pull requests:
-
-- @franglais125 for launching apps by number (w/ overlay), bug fixes, and issue support
-- @LinxGem33 and @sbarrett322 for artwork, logos, screenshots and design effort
-- @dziku1337 for peek mode in window previews
-- @robrobinbin for configuring appMenu on/off in the panel
-- @MartinPL for toggling favorites on/off in panel
-- @jackwickham for thumbnail middle and right click actions
-- @abakkk for centering the taskbar icons in the panel
-- @quasoft for changing of font weight of ungrouped application titles
-
-#### Bug Fixes: 
-@imrvelj, @Teslator, @bil-elmoussaoui, @brandon-schumann, @sw9, @rockon999 , @lexruee, @3v1n0, @freeroot, @moqmar, @ArtyomZorin, @lkc0987, @saibotk, @vanillajonathan, @Zkdc
-
-#### Translations: 
-@frnogueira (pt_BR), @zeten30 (cs), @franglais125 (es), @LaurentTreguier / @SolarLiner (fr), @elsieholmes (uk), @hosiet (zh\_CN), @jonnius (de), @urbalazs / @pappfer (hu), @crayxt (kk), @pkomur / MartinPL (pl), @AlexGluck / @GoodNike (ru), @sicklylife-jp (jp), @oltulu / @TeknoMobil / @daenney (tr), @sbadux (it), @OriginCode (zh\_TW)
-
 
 ## 
 ### License & Terms ![](media/design/png/copyleft-16.png)
-
-Dash to Panel is available under the terms of the GPL-v2 or later license See [`COPYING`](https://github.com/jderose9/dash-to-panel/blob/master/COPYING) for details.
 
 ![](https://img.shields.io/badge/Language-JavaScript-yellow.svg) ![](https://img.shields.io/badge/Licence-GPL--2.0-blue.svg)
